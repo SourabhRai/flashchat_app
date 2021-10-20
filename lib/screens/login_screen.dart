@@ -11,6 +11,8 @@ class LoginScreen extends StatefulWidget {
   _LoginScreenState createState() => _LoginScreenState();
 }
 
+// this is the login screen
+
 class _LoginScreenState extends State<LoginScreen> {
   bool showSpinner = false;
   final _auth = FirebaseAuth.instance;
